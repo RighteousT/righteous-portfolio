@@ -1,0 +1,77 @@
+.contact-section {
+  padding: 4rem 2rem 6rem;
+  background: #f3f3f3;
+  min-height: 100vh;
+}
+
+.contact-title {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  color: #111;
+}
+
+.contact-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.contact-panel {
+  background: #f8f8f8;
+  border: 5px solid #000;
+  border-radius: 18px;
+  padding: 2.5rem;
+  box-shadow: 8px 8px 0 #000;
+}
+
+.contact-panel h2 {
+  font-family: "Bangers", cursive;
+  font-size: 2.3rem;
+  margin-bottom: 1.2rem;
+  color: #111;
+  letter-spacing: 1px;
+}
+
+.contact-panel p,
+.contact-item,
+.contact-item a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #222;
+  text-decoration: none;
+}
+
+.contact-item {
+  margin-bottom: 1.4rem;
+}
+
+.contact-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #000;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-title {
+    font-size: 2.8rem;
+  }
+
+  .contact-panel {
+    padding: 1.6rem;
+  }
+}

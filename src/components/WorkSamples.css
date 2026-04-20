@@ -1,0 +1,41 @@
+.work-page {
+  padding: 80px 20px;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.work-title {
+  text-align: center;
+  font-family: "Bangers", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.work-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+}
+
+.work-panel {
+  width: 45%;
+  background: #fff;
+  border: 6px solid black;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 6px 6px 0 #000;
+}
+
+.work-heading {
+  font-family: "Bangers", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.work-desc {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
