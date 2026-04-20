@@ -12,6 +12,8 @@ function Navbar() {
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/contact">Contact</Link></li> 
         <li><Link to="/work-samples">Work Experience</Link></li>
+        <li><Link to="/resume">Resume</Link></li>
+        <li><Link to="/career-prep">Career Prep</Link></li>
       </ul>
     </nav>
   );
